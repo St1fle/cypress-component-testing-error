@@ -23,8 +23,6 @@
     "@vue/cli-service": "^4.5.13",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^7.0.0",
-    "@yottaltd/eslint-config": "^1.0.21282",
-    "@yottaltd/eslint-plugin": "^1.0.20939",
     "babel-loader": "^8.2.2",
     "cypress": "^7.4.0",
     "cypress-multi-reporters": "^1.5.0",
