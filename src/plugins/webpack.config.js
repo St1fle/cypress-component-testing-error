@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-var-requires, no-undef */
-const path = require('path');
 
 module.exports = {
   resolve: {
@@ -19,6 +18,10 @@ module.exports = {
             },
           },
         ],
+      },
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader',
       },
     ],
   },
