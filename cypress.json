@@ -1,0 +1,23 @@
+{
+  "pluginsFile": "src/plugins/index.ts",
+  "supportFile": "src/support/index.ts",
+  "componentFolder": "src/specs",
+  "testFiles": "**/*.spec.ts",
+  "fixturesFolder": "src/fixtures",
+  "screenshotsFolder": "src/screenshots",
+  "videosFolder": "src/videos",
+  "ignoreTestFiles": "**/*.{json,js}",
+  "userAgent": "E2E",
+  "video": true,
+  "videoUploadOnPasses": false,
+  "defaultCommandTimeout": 12000,
+  "watchForFileChanges": false,
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  },
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  }
+}
