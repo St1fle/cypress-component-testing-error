@@ -13,7 +13,7 @@ describe(Button.name, () => {
 
   beforeEach(
     mountCallback(Button, {
-      propsData: properties,
+      propsData: { properties },
     }),
   );
 
@@ -21,6 +21,6 @@ describe(Button.name, () => {
     cy.get('.button__control').should('contain.text', title);
 
     cy.get('.button__control--disabled').should('be.visible');
-    cy.get('.button').should('be.disabled');
+    cy.get('.button__control').should('be.disabled');
   });
 });
