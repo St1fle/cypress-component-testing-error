@@ -1,5 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires, no-undef */
 
+const { VueLoaderPlugin } = require('vue-loader');
+
 module.exports = {
   resolve: {
     extensions: ['.vue', '.ts', '.js', '.json'],
@@ -25,4 +27,5 @@ module.exports = {
       },
     ],
   },
+  plugins: [new VueLoaderPlugin()],
 };
