@@ -2,7 +2,7 @@
 
 module.exports = {
   resolve: {
-    extensions: ['.ts', '.js', '.json'],
+    extensions: ['.vue', '.ts', '.js', '.json'],
   },
   module: {
     rules: [
