@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
+    "target": "ES2019",
     "module": "es2020",
     "declaration": true,
     "declarationMap": true,
@@ -27,11 +27,8 @@
     "resolveJsonModule": true,
     "baseUrl": "./",
     "lib": ["esnext", "dom"],
-    "types": ["cypress", "node"],
+    "types": ["cypress", "node"]
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.json",
-  ],
+  "include": ["src/**/*.ts", "src/**/*.json"],
   "exclude": ["node_modules"]
 }
